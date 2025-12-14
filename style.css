@@ -88,6 +88,10 @@ nav {
     color: white;
 }
 
+.chinese-serif {
+  font-family: "Noto Serif TC", serif;
+}
+
 main {
     margin-top: 0px;
     margin-left: 30px;
