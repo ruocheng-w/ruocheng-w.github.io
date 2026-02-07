@@ -2,8 +2,11 @@ body {
     background-color: #ffffff; 
     margin-left: 60px;
     margin-right: 60px;
-    
     font-family: Arial, Helvetica, sans-serif; /* default font for the page */
+    font-size: 1rem;      /* 16px usually */
+    line-height: 1.5;     /* comfortable spacing */
+    font-weight: 400;     /* normal weight */
+    color: #212529; 
 }
 
 header {
@@ -144,4 +147,15 @@ footer {
 
 .course-table tbody tr:hover {
     background-color: #f2f2f2; /* highlight row on hover */
+}
+
+.publist {
+  margin-left: 0;
+  padding-left: 2.5em; /* space for numbers */
+}
+
+.publist li {
+  padding-left: 0.5em;   /* text offset */
+  text-indent: 0em;   /* hanging indent */
+  margin-bottom: 0.6em;
 }
